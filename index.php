@@ -22,10 +22,10 @@
         $string = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni soluta odit esse blanditiis quos, ratione quam hic, quia voluptate, nulla earum! Dignissimos, explicabo? Culpa soluta sapiente tempore ab enim repudiandae.";
 
         // Parola da censurare, la inserisce l'utente nella querystring
-        $badworld = $_GET['badworld'];
+        $badword = $_GET['badword'];
 
         // Paragrafo censurato
-        $censored_string = str_replace( $badworld, "***", $string);
+        $censored_string = str_replace( $badword, "***", $string);
 
     ?>
 
